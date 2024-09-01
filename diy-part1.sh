@@ -14,7 +14,4 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
-echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
-echo 'src-git passwallpk https://github.com/xiaorouji/openwrt-passwall-packages' >>feeds.conf.default
-git clone https://github.com/esirplayground/luci-app-poweroff.git package/lean/luci-app-poweroff
-git clone https://github.com/sirpdboy/luci-app-autotimeset package/luci-app-autotimeset
+echo 'src-git pks https://github.com/mrstoi/packages' >>feeds.conf.default
