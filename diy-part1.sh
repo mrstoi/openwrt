@@ -14,4 +14,6 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
-echo 'src-git pks https://github.com/mrstoi/packages' >>feeds.conf.default
+echo 'src-git OpenClash https://github.com/vernesong/OpenClash' >>feeds.conf.default
+git clone https://github.com/sirpdboy/luci-app-autotimeset package/luci-app-autotimeset
+git clone https://github.com/esirplayground/luci-app-poweroff.git package/luci-app-poweroff
